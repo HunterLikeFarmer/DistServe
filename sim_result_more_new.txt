@@ -1,0 +1,2175 @@
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 342.95it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 327.02it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 250.99it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 360.74it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 298.46it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 326.74it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 319.10it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 356.14it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 344.56it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 290.99it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 336.30it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 311.38it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 315.67it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 351.34it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+Namespace(ngpu_per_node=2, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 290.93it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:43,  5.42s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.92it/s]100%|██████████| 9/9 [00:06<00:00,  1.49it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	1	3	0.94	2.81
+1	2	1	1	2	4	0.62	2.50
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:43,  5.43s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.92it/s]100%|██████████| 9/9 [00:06<00:00,  1.49it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:43,  5.43s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.92it/s]100%|██████████| 9/9 [00:06<00:00,  1.49it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:43,  5.43s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.92it/s]10it [00:05,  2.45it/s]                      100%|██████████| 9/9 [00:06<00:00,  1.49it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:45,  5.63s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.85it/s]10it [00:06,  2.37it/s]                      100%|██████████| 9/9 [00:06<00:00,  1.44it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:40,  5.02s/it] 89%|████████▉ | 8/9 [00:05<00:00,  2.07it/s]100%|██████████| 9/9 [00:05<00:00,  1.60it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:41,  5.23s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.99it/s]10it [00:05,  2.53it/s]                      100%|██████████| 9/9 [00:05<00:00,  1.54it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:43,  5.42s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.92it/s]10it [00:05,  2.46it/s]                      100%|██████████| 9/9 [00:06<00:00,  1.49it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	1	3	0.47	1.41
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:41,  5.23s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.99it/s]10it [00:05,  2.54it/s]                      100%|██████████| 9/9 [00:05<00:00,  1.54it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	1	3	0.47	1.41
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:05<00:41,  5.23s/it] 89%|████████▉ | 8/9 [00:05<00:00,  1.99it/s]100%|██████████| 9/9 [00:05<00:00,  1.54it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:04<00:38,  4.82s/it] 89%|████████▉ | 8/9 [00:05<00:00,  2.15it/s]100%|██████████| 9/9 [00:05<00:00,  1.65it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	1	3	1.25	3.75
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:04<00:38,  4.82s/it] 89%|████████▉ | 8/9 [00:05<00:00,  2.15it/s]10it [00:05,  2.72it/s]                      100%|██████████| 9/9 [00:05<00:00,  1.65it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.03	6.09
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:04<00:38,  4.82s/it] 89%|████████▉ | 8/9 [00:05<00:00,  2.15it/s]10it [00:05,  2.53it/s]                      100%|██████████| 9/9 [00:05<00:00,  1.59it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	1	3	1.88	5.62
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:04<00:38,  4.82s/it] 89%|████████▉ | 8/9 [00:05<00:00,  2.15it/s]10it [00:05,  2.53it/s]                      100%|██████████| 9/9 [00:05<00:00,  1.59it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+Namespace(ngpu_per_node=4, num_node=1, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:04<00:38,  4.83s/it] 89%|████████▉ | 8/9 [00:05<00:00,  2.15it/s]10it [00:05,  2.72it/s]                      100%|██████████| 9/9 [00:05<00:00,  1.65it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	1	3	1.88	5.62
+1	1	2	2	1	4	1.41	5.62
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 381.49it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 249.77it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 254.56it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 334.15it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 329.37it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 387.86it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 360.15it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 330.86it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 319.63it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 235.33it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 370.15it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 269.62it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 331.78it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 323.70it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 351.49it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:32,  5.43s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.92it/s] 56%|█████▌    | 10/18 [00:06<00:03,  2.30it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.07it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.89it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.37it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.28it/s]100%|██████████| 18/18 [00:11<00:00,  1.51it/s]19it [00:12,  1.35it/s]                        20it [00:15,  1.30s/it]21it [00:16,  1.28s/it]22it [00:19,  1.53s/it]100%|██████████| 18/18 [00:19<00:00,  1.07s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:32,  5.43s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.92it/s] 56%|█████▌    | 10/18 [00:06<00:03,  2.30it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.07it/s] 83%|████████▎ | 15/18 [00:09<00:01,  1.72it/s] 89%|████████▉ | 16/18 [00:11<00:01,  1.25it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.30it/s]100%|██████████| 18/18 [00:11<00:00,  1.54it/s]19it [00:12,  1.46it/s]                        20it [00:14,  1.01s/it]21it [00:17,  1.43s/it]22it [00:19,  1.75s/it]100%|██████████| 18/18 [00:20<00:00,  1.12s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:35,  5.63s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.86it/s] 56%|█████▌    | 10/18 [00:06<00:03,  2.38it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.16it/s] 83%|████████▎ | 15/18 [00:09<00:01,  1.75it/s] 89%|████████▉ | 16/18 [00:11<00:01,  1.21it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.40it/s]100%|██████████| 18/18 [00:11<00:00,  1.64it/s]19it [00:12,  1.34it/s]                        20it [00:14,  1.05it/s]21it [00:17,  1.49s/it]22it [00:20,  1.85s/it]100%|██████████| 18/18 [00:20<00:00,  1.14s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	2	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	1	3	0.94	2.81
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:32,  5.42s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.92it/s] 61%|██████    | 11/18 [00:06<00:02,  2.61it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.21it/s] 83%|████████▎ | 15/18 [00:09<00:01,  1.52it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.34it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.39it/s]100%|██████████| 18/18 [00:11<00:00,  1.63it/s]19it [00:12,  1.34it/s]                        20it [00:14,  1.04it/s]21it [00:18,  1.81s/it]22it [00:18,  1.37s/it]100%|██████████| 18/18 [00:18<00:00,  1.05s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:32,  5.43s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.92it/s] 61%|██████    | 11/18 [00:06<00:02,  2.46it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.03it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.86it/s] 89%|████████▉ | 16/18 [00:11<00:01,  1.20it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.39it/s]100%|██████████| 18/18 [00:11<00:00,  1.64it/s]19it [00:12,  1.26it/s]                        20it [00:15,  1.24s/it]21it [00:16,  1.29s/it]22it [00:18,  1.48s/it]100%|██████████| 18/18 [00:19<00:00,  1.06s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 56%|█████▌    | 10/18 [00:05<00:03,  2.54it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.33it/s] 83%|████████▎ | 15/18 [00:08<00:01,  2.07it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.33it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.25it/s]100%|██████████| 18/18 [00:11<00:00,  1.48it/s]19it [00:12,  1.42it/s]                        20it [00:13,  1.21it/s]21it [00:16,  1.40s/it]22it [00:18,  1.45s/it]100%|██████████| 18/18 [00:18<00:00,  1.02s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	2	1	3	0.31	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	1.25	7.50
+2	1	1	1	2	6	0.16	0.94
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 61%|██████    | 11/18 [00:06<00:02,  2.53it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.11it/s] 83%|████████▎ | 15/18 [00:08<00:01,  2.10it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.33it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.45it/s]100%|██████████| 18/18 [00:10<00:00,  1.70it/s]19it [00:12,  1.22it/s]                        20it [00:14,  1.17s/it]21it [00:16,  1.28s/it]22it [00:17,  1.37s/it]100%|██████████| 18/18 [00:18<00:00,  1.01s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	1	3	0.47	1.41
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.22s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 61%|██████    | 11/18 [00:05<00:02,  2.69it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.30it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.94it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.32it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.45it/s]100%|██████████| 18/18 [00:10<00:00,  1.70it/s]19it [00:12,  1.22it/s]                        20it [00:14,  1.02s/it]21it [00:17,  1.64s/it]22it [00:18,  1.36s/it]100%|██████████| 18/18 [00:18<00:00,  1.02s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 56%|█████▌    | 10/18 [00:05<00:03,  2.53it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.33it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.87it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.36it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.48it/s]100%|██████████| 18/18 [00:10<00:00,  1.73it/s]19it [00:13,  1.06it/s]                        20it [00:14,  1.04it/s]21it [00:17,  1.49s/it]22it [00:18,  1.36s/it]100%|██████████| 18/18 [00:18<00:00,  1.02s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	2	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	2	2	1	8	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	1	1	1	2	6	0.16	0.94
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.22s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 61%|██████    | 11/18 [00:06<00:02,  2.53it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.12it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.22it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.31it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.18it/s]100%|██████████| 18/18 [00:11<00:00,  1.41it/s]19it [00:12,  1.37it/s]                        20it [00:13,  1.18it/s]21it [00:15,  1.21s/it]22it [00:18,  1.48s/it]100%|██████████| 18/18 [00:18<00:00,  1.02s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	2	2	1	4	0.31	1.25
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.16	0.94
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.83s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.14it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.72it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.53it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.25it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.33it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.38it/s]100%|██████████| 18/18 [00:10<00:00,  1.62it/s]19it [00:11,  1.42it/s]                        20it [00:12,  1.37it/s]21it [00:14,  1.06s/it]22it [00:16,  1.32s/it]100%|██████████| 18/18 [00:16<00:00,  1.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	2	1	1	3	1.25	3.75
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.25	7.50
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	1.25	7.50
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.83s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.72it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.53it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.39it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.31it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.44it/s]100%|██████████| 18/18 [00:10<00:00,  1.68it/s]19it [00:12,  1.21it/s]                        20it [00:12,  1.48it/s]21it [00:14,  1.07s/it]22it [00:16,  1.33s/it]100%|██████████| 18/18 [00:16<00:00,  1.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	1	3	1.88	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.03	6.09
+1	2	1	2	1	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+1	2	1	1	2	4	1.56	6.25
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	1	1	2	6	0.94	5.62
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.82s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 61%|██████    | 11/18 [00:05<00:02,  2.87it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.50it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.88it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.36it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.48it/s]100%|██████████| 18/18 [00:10<00:00,  1.74it/s]19it [00:11,  1.39it/s]                        20it [00:12,  1.26it/s]21it [00:15,  1.42s/it]22it [00:16,  1.26s/it]100%|██████████| 18/18 [00:16<00:00,  1.06it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	2	1	4	1.41	5.62
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.82s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.72it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.54it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.13it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.35it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.33it/s]100%|██████████| 18/18 [00:10<00:00,  1.56it/s]19it [00:12,  1.23it/s]                        20it [00:12,  1.50it/s]21it [00:15,  1.22s/it]22it [00:16,  1.22s/it]100%|██████████| 18/18 [00:16<00:00,  1.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+1	2	1	1	2	4	1.56	6.25
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	2	1	1	1	6	2.19	13.12
+2	1	2	2	1	8	1.09	8.75
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=2, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:21,  4.82s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.72it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.54it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.39it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.32it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.44it/s]100%|██████████| 18/18 [00:10<00:00,  1.68it/s]19it [00:12,  1.15it/s]                        20it [00:12,  1.32it/s]21it [00:14,  1.08it/s]22it [00:17,  1.54s/it]100%|██████████| 18/18 [00:17<00:00,  1.03it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	2	1	4	1.41	5.62
+1	1	2	1	1	3	1.88	5.62
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+1	2	1	1	2	4	1.56	6.25
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	2	1	1	1	6	2.19	13.12
+2	1	2	2	1	8	1.09	8.75
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 271.17it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 204.59it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 197.32it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 219.32it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 323.63it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 369.07it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 344.90it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 349.92it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 283.39it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 264.46it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 183.96it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 300.62it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 179.10it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 367.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=2, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 337.58it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:32,  5.43s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.92it/s] 61%|██████    | 11/18 [00:06<00:02,  2.45it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.03it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.86it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.35it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.40it/s]100%|██████████| 18/18 [00:11<00:00,  1.64it/s]19it [00:13,  1.02it/s]                        20it [00:15,  1.23s/it]21it [00:16,  1.23s/it]22it [00:18,  1.33s/it]100%|██████████| 18/18 [00:18<00:00,  1.03s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:32,  5.43s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.92it/s] 61%|██████    | 11/18 [00:06<00:02,  2.46it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.03it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.86it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.30it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.42it/s]100%|██████████| 18/18 [00:11<00:00,  1.67it/s]19it [00:13,  1.02s/it]                        20it [00:15,  1.26s/it]21it [00:16,  1.20s/it]22it [00:18,  1.36s/it]100%|██████████| 18/18 [00:18<00:00,  1.04s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:32,  5.43s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.92it/s] 61%|██████    | 11/18 [00:06<00:02,  2.46it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.04it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.78it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.37it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.22it/s]100%|██████████| 18/18 [00:11<00:00,  1.45it/s]19it [00:12,  1.40it/s]                        20it [00:15,  1.28s/it]21it [00:17,  1.32s/it]22it [00:18,  1.29s/it]100%|██████████| 18/18 [00:18<00:00,  1.03s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:35,  5.62s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.86it/s] 56%|█████▌    | 10/18 [00:06<00:03,  2.38it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.16it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.83it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.34it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.26it/s]100%|██████████| 18/18 [00:11<00:00,  1.49it/s]19it [00:13,  1.19it/s]                        20it [00:15,  1.18s/it]21it [00:17,  1.29s/it]22it [00:18,  1.32s/it]100%|██████████| 18/18 [00:18<00:00,  1.04s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:35,  5.63s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.86it/s] 61%|██████    | 11/18 [00:06<00:02,  2.53it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.12it/s] 83%|████████▎ | 15/18 [00:09<00:01,  1.64it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.30it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.29it/s]100%|██████████| 18/18 [00:11<00:00,  1.52it/s]19it [00:13,  1.14it/s]                        20it [00:15,  1.21s/it]21it [00:17,  1.36s/it]22it [00:18,  1.32s/it]100%|██████████| 18/18 [00:18<00:00,  1.05s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 61%|██████    | 11/18 [00:06<00:02,  2.53it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.11it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.99it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.34it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.39it/s]100%|██████████| 18/18 [00:11<00:00,  1.63it/s]19it [00:12,  1.19it/s]                        20it [00:14,  1.18s/it]21it [00:16,  1.40s/it]22it [00:18,  1.35s/it]100%|██████████| 18/18 [00:18<00:00,  1.02s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	1	2	1	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.25	7.50
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.16	0.94
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 56%|█████▌    | 10/18 [00:05<00:03,  2.53it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.33it/s] 83%|████████▎ | 15/18 [00:09<00:01,  1.63it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.42it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.54it/s]100%|██████████| 18/18 [00:10<00:00,  1.79it/s]19it [00:13,  1.03s/it]                        20it [00:13,  1.14it/s]21it [00:17,  1.53s/it]22it [00:18,  1.50s/it]100%|██████████| 18/18 [00:18<00:00,  1.05s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	2	1	8	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 61%|██████    | 11/18 [00:05<00:02,  2.69it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.30it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.84it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.34it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.26it/s]100%|██████████| 18/18 [00:11<00:00,  1.49it/s]19it [00:12,  1.34it/s]                        20it [00:14,  1.04it/s]21it [00:17,  1.60s/it]22it [00:17,  1.28s/it]100%|██████████| 18/18 [00:18<00:00,  1.01s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	2	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	2	1	2	1	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 61%|██████    | 11/18 [00:05<00:02,  2.69it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.30it/s] 83%|████████▎ | 15/18 [00:09<00:01,  1.60it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.39it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.36it/s]100%|██████████| 18/18 [00:11<00:00,  1.60it/s]19it [00:12,  1.32it/s]                        20it [00:13,  1.22it/s]21it [00:17,  1.60s/it]22it [00:18,  1.39s/it]100%|██████████| 18/18 [00:18<00:00,  1.02s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	1	2	1	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.16	0.94
+2	2	1	2	1	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:05<01:28,  5.23s/it] 44%|████▍     | 8/18 [00:05<00:05,  1.99it/s] 56%|█████▌    | 10/18 [00:05<00:03,  2.54it/s] 72%|███████▏  | 13/18 [00:06<00:01,  3.34it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.87it/s] 89%|████████▉ | 16/18 [00:10<00:01,  1.36it/s] 94%|█████████▍| 17/18 [00:11<00:00,  1.28it/s]100%|██████████| 18/18 [00:11<00:00,  1.51it/s]19it [00:12,  1.35it/s]                        20it [00:14,  1.00s/it]21it [00:16,  1.42s/it]22it [00:19,  1.64s/it]100%|██████████| 18/18 [00:19<00:00,  1.07s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	2	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.83s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.72it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.53it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.13it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.35it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.33it/s]100%|██████████| 18/18 [00:10<00:00,  1.56it/s]19it [00:11,  1.48it/s]                        20it [00:12,  1.32it/s]21it [00:14,  1.03s/it]22it [00:16,  1.30s/it]100%|██████████| 18/18 [00:16<00:00,  1.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.25	3.75
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.25	7.50
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	1.25	7.50
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.82s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 61%|██████    | 11/18 [00:05<00:02,  2.87it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.50it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.89it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.36it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.27it/s]100%|██████████| 18/18 [00:11<00:00,  1.50it/s]19it [00:11,  1.54it/s]                        20it [00:12,  1.27it/s]21it [00:15,  1.21s/it]22it [00:17,  1.43s/it]100%|██████████| 18/18 [00:17<00:00,  1.03it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	2	1	4	1.41	5.62
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.03	6.09
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.83s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.14it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.72it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.53it/s] 83%|████████▎ | 15/18 [00:08<00:01,  1.92it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.38it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.50it/s]100%|██████████| 18/18 [00:10<00:00,  1.75it/s]19it [00:11,  1.40it/s]                        20it [00:12,  1.27it/s]21it [00:15,  1.42s/it]22it [00:16,  1.20s/it]100%|██████████| 18/18 [00:16<00:00,  1.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	2	1	4	1.41	5.62
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.82s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.72it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.53it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.39it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.31it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.30it/s]100%|██████████| 18/18 [00:10<00:00,  1.53it/s]19it [00:11,  1.46it/s]                        20it [00:12,  1.50it/s]21it [00:14,  1.07s/it]22it [00:16,  1.32s/it]100%|██████████| 18/18 [00:16<00:00,  1.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=4, num_node=3, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:04<01:22,  4.83s/it] 44%|████▍     | 8/18 [00:05<00:04,  2.15it/s] 56%|█████▌    | 10/18 [00:05<00:02,  2.71it/s] 72%|███████▏  | 13/18 [00:05<00:01,  3.53it/s] 83%|████████▎ | 15/18 [00:07<00:01,  2.02it/s] 89%|████████▉ | 16/18 [00:09<00:01,  1.37it/s] 94%|█████████▍| 17/18 [00:10<00:00,  1.49it/s]100%|██████████| 18/18 [00:10<00:00,  1.73it/s]19it [00:12,  1.23it/s]                        20it [00:12,  1.41it/s]21it [00:15,  1.31s/it]22it [00:16,  1.28s/it]100%|██████████| 18/18 [00:16<00:00,  1.06it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	1	3	1.88	5.62
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+1	2	1	1	2	4	1.56	6.25
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 305.51it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 358.27it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 346.68it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 374.64it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 361.70it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 359.39it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 369.82it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 323.11it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 327.66it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 361.21it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 375.22it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 343.00it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 373.79it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 381.50it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+Namespace(ngpu_per_node=2, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 293.05it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:21,  5.42s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.92it/s] 37%|███▋      | 10/27 [00:05<00:06,  2.46it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.25it/s] 56%|█████▌    | 15/27 [00:10<00:08,  1.34it/s] 59%|█████▉    | 16/27 [00:10<00:07,  1.44it/s] 63%|██████▎   | 17/27 [00:11<00:07,  1.33it/s] 67%|██████▋   | 18/27 [00:11<00:05,  1.56it/s] 70%|███████   | 19/27 [00:12<00:05,  1.38it/s] 74%|███████▍  | 20/27 [00:14<00:06,  1.12it/s] 78%|███████▊  | 21/27 [00:18<00:10,  1.75s/it] 81%|████████▏ | 22/27 [00:18<00:06,  1.33s/it] 85%|████████▌ | 23/27 [00:20<00:06,  1.58s/it] 89%|████████▉ | 24/27 [00:21<00:03,  1.19s/it] 93%|█████████▎| 25/27 [00:21<00:01,  1.11it/s] 96%|█████████▋| 26/27 [00:23<00:01,  1.23s/it]100%|██████████| 27/27 [00:25<00:00,  1.52s/it]28it [00:27,  1.66s/it]                        29it [00:29,  1.71s/it]30it [00:33,  2.57s/it]31it [00:34,  1.87s/it]32it [00:35,  1.79s/it]33it [00:37,  1.79s/it]100%|██████████| 27/27 [00:37<00:00,  1.40s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	2	1	2	1	16	0.31	5.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.31	5.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:15,  5.23s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.99it/s] 37%|███▋      | 10/27 [00:05<00:07,  2.37it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.15it/s] 56%|█████▌    | 15/27 [00:10<00:08,  1.37it/s] 59%|█████▉    | 16/27 [00:10<00:07,  1.54it/s] 63%|██████▎   | 17/27 [00:10<00:06,  1.56it/s] 67%|██████▋   | 18/27 [00:11<00:04,  1.82it/s] 70%|███████   | 19/27 [00:12<00:06,  1.26it/s] 74%|███████▍  | 20/27 [00:14<00:07,  1.04s/it] 78%|███████▊  | 21/27 [00:17<00:09,  1.66s/it] 81%|████████▏ | 22/27 [00:19<00:07,  1.53s/it] 85%|████████▌ | 23/27 [00:21<00:06,  1.72s/it] 89%|████████▉ | 24/27 [00:21<00:03,  1.29s/it] 93%|█████████▎| 25/27 [00:21<00:01,  1.03it/s] 96%|█████████▋| 26/27 [00:22<00:00,  1.24it/s]100%|██████████| 27/27 [00:23<00:00,  1.04s/it]28it [00:26,  1.51s/it]                        29it [00:28,  1.72s/it]30it [00:34,  2.94s/it]31it [00:34,  2.12s/it]32it [00:34,  1.55s/it]33it [00:36,  1.51s/it]100%|██████████| 27/27 [00:36<00:00,  1.35s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	2	1	12	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	2	1	2	1	16	0.31	5.00
+4	1	2	1	2	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	2	16	0.31	5.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:21,  5.43s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.92it/s] 41%|████      | 11/27 [00:06<00:06,  2.61it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.20it/s] 56%|█████▌    | 15/27 [00:09<00:07,  1.59it/s] 59%|█████▉    | 16/27 [00:10<00:08,  1.33it/s] 63%|██████▎   | 17/27 [00:11<00:07,  1.31it/s] 67%|██████▋   | 18/27 [00:11<00:05,  1.55it/s] 70%|███████   | 19/27 [00:13<00:06,  1.15it/s] 74%|███████▍  | 20/27 [00:14<00:06,  1.05it/s] 78%|███████▊  | 21/27 [00:18<00:10,  1.70s/it] 81%|████████▏ | 22/27 [00:18<00:06,  1.29s/it] 85%|████████▌ | 23/27 [00:21<00:07,  1.77s/it] 89%|████████▉ | 24/27 [00:21<00:03,  1.33s/it] 96%|█████████▋| 26/27 [00:23<00:01,  1.09s/it]100%|██████████| 27/27 [00:25<00:00,  1.31s/it]28it [00:26,  1.29s/it]                        29it [00:29,  1.64s/it]30it [00:34,  2.69s/it]31it [00:34,  1.98s/it]32it [00:37,  2.16s/it]33it [00:37,  1.59s/it]100%|██████████| 27/27 [00:37<00:00,  1.40s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	1	2	1	2	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	2	1	16	0.31	5.00
+4	2	1	1	2	16	0.31	5.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:21,  5.43s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.92it/s] 41%|████      | 11/27 [00:06<00:06,  2.61it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.21it/s] 56%|█████▌    | 15/27 [00:09<00:08,  1.46it/s] 59%|█████▉    | 16/27 [00:10<00:07,  1.42it/s] 63%|██████▎   | 17/27 [00:10<00:06,  1.54it/s] 67%|██████▋   | 18/27 [00:11<00:04,  1.80it/s] 70%|███████   | 19/27 [00:12<00:06,  1.25it/s] 74%|███████▍  | 20/27 [00:14<00:07,  1.05s/it] 78%|███████▊  | 21/27 [00:17<00:09,  1.61s/it] 81%|████████▏ | 22/27 [00:19<00:08,  1.67s/it] 85%|████████▌ | 23/27 [00:20<00:06,  1.54s/it] 89%|████████▉ | 24/27 [00:20<00:03,  1.16s/it] 93%|█████████▎| 25/27 [00:21<00:01,  1.07it/s] 96%|█████████▋| 26/27 [00:23<00:01,  1.31s/it]100%|██████████| 27/27 [00:26<00:00,  1.93s/it]28it [00:27,  1.42s/it]                        29it [00:28,  1.30s/it]30it [00:33,  2.58s/it]31it [00:33,  1.87s/it]32it [00:35,  1.91s/it]33it [00:40,  2.60s/it]100%|██████████| 27/27 [00:40<00:00,  1.50s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	2	1	2	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	1	1	1	2	12	0.00	0.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	2	1	16	0.31	5.00
+4	2	1	1	2	16	0.31	5.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:21,  5.43s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.92it/s] 37%|███▋      | 10/27 [00:06<00:07,  2.30it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.07it/s] 56%|█████▌    | 15/27 [00:09<00:07,  1.65it/s] 59%|█████▉    | 16/27 [00:10<00:07,  1.43it/s] 63%|██████▎   | 17/27 [00:11<00:07,  1.26it/s] 67%|██████▋   | 18/27 [00:11<00:06,  1.49it/s] 70%|███████   | 19/27 [00:12<00:05,  1.43it/s] 74%|███████▍  | 20/27 [00:15<00:08,  1.27s/it] 78%|███████▊  | 21/27 [00:18<00:09,  1.62s/it] 81%|████████▏ | 22/27 [00:18<00:06,  1.24s/it] 85%|████████▌ | 23/27 [00:20<00:05,  1.39s/it] 89%|████████▉ | 24/27 [00:20<00:03,  1.06s/it] 93%|█████████▎| 25/27 [00:22<00:02,  1.39s/it] 96%|█████████▋| 26/27 [00:22<00:01,  1.04s/it]100%|██████████| 27/27 [00:25<00:00,  1.44s/it]28it [00:26,  1.43s/it]                        29it [00:30,  2.26s/it]30it [00:33,  2.25s/it]31it [00:33,  1.64s/it]32it [00:35,  1.87s/it]33it [00:37,  1.73s/it]100%|██████████| 27/27 [00:37<00:00,  1.39s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	2	1	2	1	16	0.31	5.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.31	5.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:15,  5.23s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.99it/s] 37%|███▋      | 10/27 [00:05<00:06,  2.54it/s] 48%|████▊     | 13/27 [00:06<00:04,  2.87it/s] 56%|█████▌    | 15/27 [00:08<00:05,  2.03it/s] 59%|█████▉    | 16/27 [00:10<00:08,  1.37it/s] 63%|██████▎   | 17/27 [00:11<00:08,  1.22it/s] 67%|██████▋   | 18/27 [00:11<00:06,  1.45it/s] 70%|███████   | 19/27 [00:12<00:05,  1.40it/s] 74%|███████▍  | 20/27 [00:14<00:07,  1.13s/it] 78%|███████▊  | 21/27 [00:16<00:07,  1.26s/it] 81%|████████▏ | 22/27 [00:18<00:06,  1.35s/it] 85%|████████▌ | 23/27 [00:20<00:06,  1.59s/it] 89%|████████▉ | 24/27 [00:20<00:03,  1.20s/it] 93%|█████████▎| 25/27 [00:21<00:02,  1.14s/it] 96%|█████████▋| 26/27 [00:22<00:00,  1.01it/s]100%|██████████| 27/27 [00:24<00:00,  1.47s/it]28it [00:26,  1.57s/it]                        29it [00:27,  1.28s/it]30it [00:33,  2.69s/it]31it [00:33,  1.95s/it]32it [00:37,  2.45s/it]33it [00:38,  2.08s/it]100%|██████████| 27/27 [00:38<00:00,  1.42s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	1	3	0.47	1.41
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.16	0.94
+2	2	1	1	1	6	1.25	7.50
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	1	1	1	2	12	0.00	0.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	2	1	16	0.94	15.00
+4	2	1	1	2	16	0.78	12.50
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:15,  5.23s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.99it/s] 37%|███▋      | 10/27 [00:05<00:07,  2.37it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.16it/s] 56%|█████▌    | 15/27 [00:08<00:06,  1.92it/s] 59%|█████▉    | 16/27 [00:10<00:07,  1.39it/s] 63%|██████▎   | 17/27 [00:11<00:07,  1.29it/s] 67%|██████▋   | 18/27 [00:11<00:05,  1.52it/s] 70%|███████   | 19/27 [00:13<00:07,  1.09it/s] 74%|███████▍  | 20/27 [00:14<00:07,  1.04s/it] 78%|███████▊  | 21/27 [00:16<00:07,  1.29s/it] 81%|████████▏ | 22/27 [00:18<00:06,  1.32s/it] 85%|████████▌ | 23/27 [00:21<00:08,  2.02s/it] 89%|████████▉ | 24/27 [00:22<00:04,  1.50s/it] 96%|█████████▋| 26/27 [00:22<00:00,  1.14it/s]100%|██████████| 27/27 [00:24<00:00,  1.20s/it]28it [00:26,  1.35s/it]                        29it [00:26,  1.10s/it]30it [00:34,  3.02s/it]31it [00:34,  2.22s/it]32it [00:36,  2.16s/it]33it [00:38,  2.00s/it]100%|██████████| 27/27 [00:38<00:00,  1.44s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	2	1	3	0.31	0.94
+1	1	2	1	1	3	0.47	1.41
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	2	1	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	1.25	10.00
+4	1	1	2	1	12	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	1	2	1	2	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	2	1	16	0.94	15.00
+4	2	1	1	2	16	0.94	15.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:15,  5.23s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.99it/s] 37%|███▋      | 10/27 [00:05<00:06,  2.54it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.33it/s] 56%|█████▌    | 15/27 [00:08<00:05,  2.07it/s] 59%|█████▉    | 16/27 [00:10<00:08,  1.33it/s] 63%|██████▎   | 17/27 [00:11<00:07,  1.25it/s] 67%|██████▋   | 18/27 [00:11<00:06,  1.48it/s] 70%|███████   | 19/27 [00:13<00:07,  1.07it/s] 74%|███████▍  | 20/27 [00:13<00:05,  1.32it/s] 78%|███████▊  | 21/27 [00:16<00:07,  1.29s/it] 81%|████████▏ | 22/27 [00:18<00:07,  1.43s/it] 85%|████████▌ | 23/27 [00:19<00:06,  1.53s/it] 89%|████████▉ | 24/27 [00:20<00:03,  1.16s/it] 93%|█████████▎| 25/27 [00:21<00:02,  1.29s/it] 96%|█████████▋| 26/27 [00:22<00:01,  1.09s/it]100%|██████████| 27/27 [00:24<00:00,  1.48s/it]28it [00:26,  1.51s/it]                        29it [00:26,  1.13s/it]30it [00:32,  2.70s/it]31it [00:33,  1.96s/it]32it [00:36,  2.27s/it]33it [00:36,  1.77s/it]100%|██████████| 27/27 [00:36<00:00,  1.37s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	1	3	0.47	1.41
+1	1	1	2	1	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	2	1	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	2	1	2	1	16	0.94	15.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.94	15.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:15,  5.22s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.99it/s] 37%|███▋      | 10/27 [00:05<00:07,  2.38it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.16it/s] 56%|█████▌    | 15/27 [00:07<00:05,  2.25it/s] 59%|█████▉    | 16/27 [00:10<00:08,  1.23it/s] 63%|██████▎   | 17/27 [00:11<00:08,  1.23it/s] 67%|██████▋   | 18/27 [00:11<00:06,  1.46it/s] 70%|███████   | 19/27 [00:13<00:07,  1.12it/s] 74%|███████▍  | 20/27 [00:13<00:05,  1.29it/s] 78%|███████▊  | 21/27 [00:16<00:07,  1.20s/it] 81%|████████▏ | 22/27 [00:19<00:08,  1.69s/it] 85%|████████▌ | 23/27 [00:20<00:06,  1.50s/it] 89%|████████▉ | 24/27 [00:20<00:03,  1.13s/it] 93%|█████████▎| 25/27 [00:21<00:02,  1.21s/it] 96%|█████████▋| 26/27 [00:22<00:01,  1.03s/it]100%|██████████| 27/27 [00:25<00:00,  1.73s/it]28it [00:26,  1.34s/it]                        29it [00:26,  1.00s/it]30it [00:33,  2.74s/it]31it [00:33,  1.98s/it]32it [00:35,  1.99s/it]33it [00:37,  2.11s/it]100%|██████████| 27/27 [00:38<00:00,  1.41s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	1	3	0.47	1.41
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	2	1	8	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	1.25	10.00
+2	2	1	2	1	8	1.25	10.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	1	2	1	2	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	2	1	16	0.94	15.00
+4	2	1	1	2	16	0.94	15.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:05<02:15,  5.23s/it] 30%|██▉       | 8/27 [00:05<00:09,  1.99it/s] 41%|████      | 11/27 [00:05<00:05,  2.70it/s] 48%|████▊     | 13/27 [00:06<00:04,  3.30it/s] 56%|█████▌    | 15/27 [00:09<00:07,  1.61it/s] 59%|█████▉    | 16/27 [00:10<00:07,  1.40it/s] 63%|██████▎   | 17/27 [00:10<00:06,  1.44it/s] 67%|██████▋   | 18/27 [00:11<00:05,  1.69it/s] 70%|███████   | 19/27 [00:13<00:07,  1.09it/s] 74%|███████▍  | 20/27 [00:13<00:05,  1.26it/s] 78%|███████▊  | 21/27 [00:17<00:10,  1.74s/it] 81%|████████▏ | 22/27 [00:18<00:06,  1.38s/it] 85%|████████▌ | 23/27 [00:19<00:05,  1.44s/it] 89%|████████▉ | 24/27 [00:20<00:03,  1.09s/it] 93%|█████████▎| 25/27 [00:22<00:02,  1.35s/it] 96%|█████████▋| 26/27 [00:23<00:01,  1.25s/it]100%|██████████| 27/27 [00:23<00:00,  1.12s/it]28it [00:25,  1.21s/it]                        29it [00:27,  1.62s/it]30it [00:35,  3.35s/it]31it [00:35,  2.41s/it]32it [00:35,  1.75s/it]33it [00:35,  1.29s/it]100%|██████████| 27/27 [00:36<00:00,  1.34s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	1	2	0.47	0.94
+1	1	1	2	1	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	2	1	1	6	0.00	0.00
+2	1	1	2	1	6	0.16	0.94
+2	2	1	1	1	6	1.56	9.38
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.16	0.94
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	2	1	2	1	16	0.94	15.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.94	15.00
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:04<02:05,  4.83s/it] 30%|██▉       | 8/27 [00:05<00:08,  2.15it/s] 37%|███▋      | 10/27 [00:05<00:06,  2.72it/s] 48%|████▊     | 13/27 [00:05<00:03,  3.54it/s] 56%|█████▌    | 15/27 [00:07<00:04,  2.55it/s] 59%|█████▉    | 16/27 [00:09<00:08,  1.30it/s] 63%|██████▎   | 17/27 [00:10<00:07,  1.42it/s] 67%|██████▋   | 18/27 [00:10<00:05,  1.66it/s] 70%|███████   | 19/27 [00:12<00:06,  1.21it/s] 74%|███████▍  | 20/27 [00:12<00:05,  1.21it/s] 78%|███████▊  | 21/27 [00:13<00:05,  1.15it/s] 81%|████████▏ | 22/27 [00:16<00:06,  1.34s/it] 85%|████████▌ | 23/27 [00:17<00:04,  1.19s/it] 89%|████████▉ | 24/27 [00:17<00:02,  1.10it/s] 93%|█████████▎| 25/27 [00:19<00:02,  1.23s/it] 96%|█████████▋| 26/27 [00:20<00:01,  1.05s/it]100%|██████████| 27/27 [00:20<00:00,  1.09it/s]28it [00:23,  1.36s/it]                        29it [00:23,  1.20s/it]30it [00:27,  1.98s/it]31it [00:27,  1.45s/it]32it [00:30,  1.79s/it]33it [00:35,  2.70s/it]100%|██████████| 27/27 [00:35<00:00,  1.32s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	1	3	1.25	3.75
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.25	7.50
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	1.25	7.50
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.62	7.50
+4	2	1	1	1	12	1.88	22.50
+4	1	2	1	2	16	0.00	0.00
+4	2	1	2	1	16	1.41	22.50
+4	2	1	1	2	16	0.78	12.50
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:04<02:05,  4.83s/it] 30%|██▉       | 8/27 [00:05<00:08,  2.15it/s] 41%|████      | 11/27 [00:05<00:05,  2.87it/s] 48%|████▊     | 13/27 [00:05<00:03,  3.50it/s] 56%|█████▌    | 15/27 [00:08<00:06,  1.89it/s] 59%|█████▉    | 16/27 [00:09<00:08,  1.36it/s] 63%|██████▎   | 17/27 [00:10<00:06,  1.57it/s] 67%|██████▋   | 18/27 [00:10<00:04,  1.83it/s] 70%|███████   | 19/27 [00:11<00:05,  1.34it/s] 74%|███████▍  | 20/27 [00:12<00:04,  1.51it/s] 78%|███████▊  | 21/27 [00:15<00:08,  1.43s/it] 81%|████████▏ | 22/27 [00:16<00:06,  1.26s/it] 85%|████████▌ | 23/27 [00:18<00:05,  1.47s/it] 89%|████████▉ | 24/27 [00:18<00:03,  1.11s/it] 96%|█████████▋| 26/27 [00:19<00:00,  1.19it/s]100%|██████████| 27/27 [00:20<00:00,  1.14it/s]28it [00:22,  1.22s/it]                        29it [00:26,  1.97s/it]30it [00:28,  1.98s/it]31it [00:29,  1.48s/it]32it [00:31,  1.80s/it]33it [00:33,  1.69s/it]100%|██████████| 27/27 [00:33<00:00,  1.24s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	2	1	1	3	1.88	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.03	6.09
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	1	1	2	6	0.94	5.62
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	2	12	0.62	7.50
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.88	22.50
+4	2	1	2	1	16	1.41	22.50
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	1.41	22.50
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:04<02:05,  4.83s/it] 30%|██▉       | 8/27 [00:05<00:08,  2.15it/s] 37%|███▋      | 10/27 [00:05<00:06,  2.72it/s] 48%|████▊     | 13/27 [00:05<00:03,  3.53it/s] 56%|█████▌    | 15/27 [00:07<00:05,  2.12it/s] 59%|█████▉    | 16/27 [00:10<00:08,  1.29it/s] 63%|██████▎   | 17/27 [00:10<00:06,  1.49it/s] 67%|██████▋   | 18/27 [00:10<00:05,  1.74it/s] 70%|███████   | 19/27 [00:11<00:05,  1.39it/s] 74%|███████▍  | 20/27 [00:12<00:04,  1.56it/s] 78%|███████▊  | 21/27 [00:14<00:06,  1.10s/it] 81%|████████▏ | 22/27 [00:16<00:07,  1.40s/it] 85%|████████▌ | 23/27 [00:18<00:06,  1.51s/it] 89%|████████▉ | 24/27 [00:18<00:03,  1.14s/it] 96%|█████████▋| 26/27 [00:19<00:00,  1.11it/s]100%|██████████| 27/27 [00:22<00:00,  1.22s/it]28it [00:23,  1.22s/it]                        29it [00:24,  1.21s/it]30it [00:28,  2.10s/it]31it [00:29,  1.56s/it]32it [00:30,  1.46s/it]33it [00:36,  2.79s/it]100%|██████████| 27/27 [00:36<00:00,  1.36s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	1	3	2.19	6.56
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	1	1	2	6	0.94	5.62
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.88	22.50
+4	1	1	1	2	12	0.62	7.50
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	1.41	22.50
+4	2	1	2	1	16	1.41	22.50
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:04<02:05,  4.82s/it] 30%|██▉       | 8/27 [00:05<00:08,  2.15it/s] 41%|████      | 11/27 [00:05<00:05,  2.69it/s] 48%|████▊     | 13/27 [00:05<00:04,  3.29it/s] 56%|█████▌    | 15/27 [00:07<00:04,  2.61it/s] 59%|█████▉    | 16/27 [00:09<00:08,  1.30it/s] 63%|██████▎   | 17/27 [00:10<00:07,  1.29it/s] 67%|██████▋   | 18/27 [00:10<00:05,  1.52it/s] 70%|███████   | 19/27 [00:12<00:06,  1.21it/s] 74%|███████▍  | 20/27 [00:12<00:04,  1.48it/s] 78%|███████▊  | 21/27 [00:13<00:05,  1.15it/s] 81%|████████▏ | 22/27 [00:16<00:06,  1.34s/it] 85%|████████▌ | 23/27 [00:17<00:04,  1.25s/it] 89%|████████▉ | 24/27 [00:17<00:02,  1.05it/s] 93%|█████████▎| 25/27 [00:18<00:02,  1.02s/it] 96%|█████████▋| 26/27 [00:19<00:01,  1.02s/it]100%|██████████| 27/27 [00:22<00:00,  1.55s/it]28it [00:23,  1.21s/it]                        29it [00:23,  1.03s/it]30it [00:28,  2.22s/it]31it [00:28,  1.62s/it]32it [00:31,  1.97s/it]33it [00:34,  2.28s/it]100%|██████████| 27/27 [00:35<00:00,  1.30s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	1	3	1.88	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	2	1	1	1	6	2.19	13.12
+2	1	2	2	1	8	1.09	8.75
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.62	7.50
+4	2	1	1	1	12	1.88	22.50
+4	1	2	1	2	16	0.00	0.00
+4	2	1	2	1	16	1.41	22.50
+4	2	1	1	2	16	1.41	22.50
+Namespace(ngpu_per_node=4, num_node=4, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:04<02:05,  4.83s/it] 30%|██▉       | 8/27 [00:05<00:08,  2.15it/s] 41%|████      | 11/27 [00:05<00:05,  2.87it/s] 48%|████▊     | 13/27 [00:05<00:04,  3.50it/s] 56%|█████▌    | 15/27 [00:07<00:05,  2.36it/s] 59%|█████▉    | 16/27 [00:09<00:08,  1.29it/s] 63%|██████▎   | 17/27 [00:10<00:07,  1.28it/s] 67%|██████▋   | 18/27 [00:10<00:05,  1.52it/s] 70%|███████   | 19/27 [00:12<00:07,  1.14it/s] 74%|███████▍  | 20/27 [00:12<00:04,  1.41it/s] 78%|███████▊  | 21/27 [00:14<00:05,  1.06it/s] 81%|████████▏ | 22/27 [00:16<00:06,  1.34s/it] 85%|████████▌ | 23/27 [00:18<00:05,  1.36s/it] 89%|████████▉ | 24/27 [00:18<00:03,  1.03s/it] 93%|█████████▎| 25/27 [00:19<00:02,  1.02s/it] 96%|█████████▋| 26/27 [00:20<00:01,  1.02s/it]100%|██████████| 27/27 [00:22<00:00,  1.43s/it]28it [00:23,  1.19s/it]                        29it [00:25,  1.49s/it]30it [00:29,  2.24s/it]31it [00:29,  1.63s/it]32it [00:32,  1.98s/it]33it [00:36,  2.65s/it]100%|██████████| 27/27 [00:36<00:00,  1.37s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	1	3	1.88	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+1	2	1	1	2	4	1.56	6.25
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	2	1	1	1	6	2.19	13.12
+2	1	2	2	1	8	1.09	8.75
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	2	12	0.62	7.50
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.88	22.50
+4	1	2	1	2	16	0.00	0.00
+4	2	1	2	1	16	1.41	22.50
+4	2	1	1	2	16	1.41	22.50
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 289.36it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 375.81it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 278.31it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 240.86it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 259.58it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.00	0.00
+2	1	1	1	1	4	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 332.15it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 276.08it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 371.00it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 358.69it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 254.70it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	0.47	0.94
+2	1	1	1	1	4	0.31	1.25
+4	1	1	1	1	8	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 277.37it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+5	1	1	1	1	10	0.78	7.81
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 391.97it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+5	1	1	1	1	10	0.78	7.81
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 339.04it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+5	1	1	1	1	10	0.78	7.81
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 276.56it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+5	1	1	1	1	10	0.78	7.81
+Namespace(ngpu_per_node=2, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 368.30it/s]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	1	1	2	1.25	2.50
+2	1	1	1	1	4	1.41	5.62
+4	1	1	1	1	8	1.09	8.75
+5	1	1	1	1	10	0.78	7.81
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:02,  5.23s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.99it/s] 31%|███       | 11/36 [00:06<00:10,  2.39it/s] 36%|███▌      | 13/36 [00:06<00:07,  2.95it/s] 42%|████▏     | 15/36 [00:09<00:13,  1.54it/s] 44%|████▍     | 16/36 [00:10<00:13,  1.48it/s] 47%|████▋     | 17/36 [00:11<00:13,  1.36it/s] 50%|█████     | 18/36 [00:11<00:11,  1.60it/s] 53%|█████▎    | 19/36 [00:12<00:12,  1.40it/s] 56%|█████▌    | 20/36 [00:14<00:16,  1.03s/it] 58%|█████▊    | 21/36 [00:17<00:24,  1.66s/it] 61%|██████    | 22/36 [00:18<00:17,  1.26s/it] 64%|██████▍   | 23/36 [00:20<00:19,  1.47s/it] 67%|██████▋   | 24/36 [00:20<00:13,  1.11s/it] 69%|██████▉   | 25/36 [00:21<00:11,  1.08s/it] 72%|███████▏  | 26/36 [00:22<00:10,  1.00s/it] 75%|███████▌  | 27/36 [00:24<00:13,  1.54s/it] 78%|███████▊  | 28/36 [00:27<00:13,  1.74s/it] 81%|████████  | 29/36 [00:28<00:11,  1.64s/it] 83%|████████▎ | 30/36 [00:33<00:15,  2.52s/it] 86%|████████▌ | 31/36 [00:33<00:09,  1.83s/it] 89%|████████▉ | 32/36 [00:34<00:07,  1.76s/it] 92%|█████████▏| 33/36 [00:38<00:06,  2.20s/it] 94%|█████████▍| 34/36 [00:40<00:04,  2.26s/it] 97%|█████████▋| 35/36 [00:43<00:02,  2.55s/it]100%|██████████| 36/36 [00:44<00:00,  1.91s/it]37it [00:44,  1.40s/it]                        38it [00:44,  1.10s/it]39it [00:45,  1.20it/s]40it [00:45,  1.56it/s]41it [00:45,  1.75it/s]42it [00:48,  1.36s/it]43it [00:49,  1.08s/it]100%|██████████| 36/36 [00:49<00:00,  1.37s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	2	1	2	1	16	0.31	5.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.31	5.00
+5	1	1	1	1	10	0.00	0.00
+5	1	1	2	1	15	0.00	0.00
+5	2	1	1	1	15	0.00	0.00
+5	2	1	2	1	20	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:09,  5.42s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.92it/s] 31%|███       | 11/36 [00:06<00:09,  2.61it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.21it/s] 42%|████▏     | 15/36 [00:09<00:13,  1.59it/s] 44%|████▍     | 16/36 [00:10<00:14,  1.38it/s] 47%|████▋     | 17/36 [00:10<00:12,  1.50it/s] 50%|█████     | 18/36 [00:11<00:10,  1.76it/s] 53%|█████▎    | 19/36 [00:12<00:14,  1.17it/s] 56%|█████▌    | 20/36 [00:15<00:19,  1.24s/it] 58%|█████▊    | 21/36 [00:18<00:25,  1.70s/it] 61%|██████    | 22/36 [00:18<00:18,  1.35s/it] 64%|██████▍   | 23/36 [00:20<00:19,  1.48s/it] 67%|██████▋   | 24/36 [00:20<00:13,  1.12s/it] 69%|██████▉   | 25/36 [00:22<00:15,  1.37s/it] 72%|███████▏  | 26/36 [00:22<00:10,  1.03s/it] 75%|███████▌  | 27/36 [00:23<00:09,  1.02s/it] 78%|███████▊  | 28/36 [00:25<00:10,  1.32s/it] 81%|████████  | 29/36 [00:28<00:12,  1.82s/it] 83%|████████▎ | 30/36 [00:34<00:17,  2.89s/it] 86%|████████▌ | 31/36 [00:34<00:10,  2.09s/it] 89%|████████▉ | 32/36 [00:35<00:07,  1.76s/it] 92%|█████████▏| 33/36 [00:37<00:05,  1.84s/it] 94%|█████████▍| 34/36 [00:40<00:04,  2.25s/it] 97%|█████████▋| 35/36 [00:44<00:02,  2.66s/it]100%|██████████| 36/36 [00:44<00:00,  1.98s/it]37it [00:45,  1.63s/it]                        38it [00:46,  1.26s/it]39it [00:46,  1.06it/s]40it [00:46,  1.38it/s]41it [00:46,  1.59it/s]42it [00:48,  1.25it/s]43it [00:48,  1.46it/s]100%|██████████| 36/36 [00:48<00:00,  1.35s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	2	1	2	1	16	0.31	5.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.31	5.00
+5	1	1	1	1	10	0.00	0.00
+5	1	1	2	1	15	0.00	0.00
+5	2	1	1	1	15	0.00	0.00
+5	2	1	2	1	20	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:09,  5.43s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.92it/s] 31%|███       | 11/36 [00:06<00:10,  2.46it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.03it/s] 42%|████▏     | 15/36 [00:08<00:11,  1.86it/s] 44%|████▍     | 16/36 [00:10<00:14,  1.35it/s] 47%|████▋     | 17/36 [00:11<00:14,  1.27it/s] 50%|█████     | 18/36 [00:11<00:12,  1.50it/s] 53%|█████▎    | 19/36 [00:13<00:16,  1.02it/s] 56%|█████▌    | 20/36 [00:14<00:14,  1.07it/s] 58%|█████▊    | 21/36 [00:16<00:19,  1.32s/it] 61%|██████    | 22/36 [00:18<00:18,  1.34s/it] 64%|██████▍   | 23/36 [00:21<00:24,  1.87s/it] 67%|██████▋   | 24/36 [00:21<00:16,  1.39s/it] 69%|██████▉   | 25/36 [00:22<00:12,  1.10s/it] 72%|███████▏  | 26/36 [00:24<00:13,  1.37s/it] 75%|███████▌  | 27/36 [00:24<00:10,  1.15s/it] 78%|███████▊  | 28/36 [00:25<00:07,  1.08it/s] 81%|████████  | 29/36 [00:27<00:09,  1.37s/it] 83%|████████▎ | 30/36 [00:36<00:21,  3.65s/it] 86%|████████▌ | 31/36 [00:36<00:13,  2.62s/it] 92%|█████████▏| 33/36 [00:37<00:04,  1.51s/it] 94%|█████████▍| 34/36 [00:39<00:03,  1.68s/it] 97%|█████████▋| 35/36 [00:45<00:02,  2.76s/it]100%|██████████| 36/36 [00:45<00:00,  2.12s/it]37it [00:47,  2.09s/it]                        38it [00:48,  1.61s/it]39it [00:48,  1.20s/it]41it [00:48,  1.42it/s]42it [00:48,  1.72it/s]43it [00:49,  1.86it/s]100%|██████████| 36/36 [00:49<00:00,  1.37s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	2	1	3	0.00	0.00
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+4	1	2	1	1	12	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	1	1	1	2	12	0.00	0.00
+4	2	1	2	1	16	0.31	5.00
+4	2	1	1	2	16	0.31	5.00
+5	1	1	1	1	10	0.00	0.00
+5	1	1	2	1	15	0.00	0.00
+5	2	1	1	1	15	0.00	0.00
+5	2	1	2	1	20	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:09,  5.42s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.92it/s] 28%|██▊       | 10/36 [00:05<00:10,  2.45it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.00it/s] 42%|████▏     | 15/36 [00:09<00:12,  1.64it/s] 44%|████▍     | 16/36 [00:10<00:14,  1.36it/s] 47%|████▋     | 17/36 [00:10<00:12,  1.56it/s] 50%|█████     | 18/36 [00:11<00:09,  1.82it/s] 53%|█████▎    | 19/36 [00:12<00:13,  1.27it/s] 56%|█████▌    | 20/36 [00:15<00:21,  1.34s/it] 58%|█████▊    | 21/36 [00:17<00:21,  1.46s/it] 61%|██████    | 22/36 [00:19<00:21,  1.55s/it] 64%|██████▍   | 23/36 [00:21<00:22,  1.74s/it] 67%|██████▋   | 24/36 [00:21<00:15,  1.30s/it] 69%|██████▉   | 25/36 [00:22<00:12,  1.10s/it] 72%|███████▏  | 26/36 [00:22<00:08,  1.19it/s] 75%|███████▌  | 27/36 [00:24<00:11,  1.24s/it] 78%|███████▊  | 28/36 [00:26<00:10,  1.29s/it] 81%|████████  | 29/36 [00:29<00:14,  2.04s/it] 83%|████████▎ | 30/36 [00:35<00:19,  3.23s/it] 86%|████████▌ | 31/36 [00:36<00:11,  2.32s/it] 89%|████████▉ | 32/36 [00:36<00:06,  1.75s/it] 92%|█████████▏| 33/36 [00:37<00:04,  1.53s/it] 94%|█████████▍| 34/36 [00:41<00:04,  2.33s/it] 97%|█████████▋| 35/36 [00:44<00:02,  2.30s/it]100%|██████████| 36/36 [00:44<00:00,  1.73s/it]37it [00:46,  1.81s/it]                        38it [00:46,  1.39s/it]39it [00:47,  1.04s/it]40it [00:47,  1.27it/s]41it [00:47,  1.49it/s]42it [00:48,  1.41it/s]43it [00:48,  1.61it/s]100%|██████████| 36/36 [00:49<00:00,  1.36s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	2	1	2	1	16	0.31	5.00
+4	2	1	1	2	16	0.31	5.00
+5	1	1	1	1	10	0.00	0.00
+5	1	1	2	1	15	0.00	0.00
+5	2	1	2	1	20	0.00	0.00
+5	2	1	1	1	15	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=150, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:09,  5.42s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.92it/s] 31%|███       | 11/36 [00:06<00:09,  2.61it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.21it/s] 42%|████▏     | 15/36 [00:09<00:14,  1.47it/s] 44%|████▍     | 16/36 [00:10<00:14,  1.42it/s] 47%|████▋     | 17/36 [00:11<00:13,  1.46it/s] 50%|█████     | 18/36 [00:11<00:10,  1.71it/s] 53%|█████▎    | 19/36 [00:12<00:13,  1.29it/s] 56%|█████▌    | 20/36 [00:14<00:15,  1.02it/s] 58%|█████▊    | 21/36 [00:18<00:26,  1.77s/it] 61%|██████    | 22/36 [00:18<00:18,  1.35s/it] 64%|██████▍   | 23/36 [00:20<00:19,  1.53s/it] 67%|██████▋   | 24/36 [00:20<00:13,  1.15s/it] 69%|██████▉   | 25/36 [00:20<00:09,  1.14it/s] 72%|███████▏  | 26/36 [00:22<00:12,  1.21s/it] 75%|███████▌  | 27/36 [00:25<00:14,  1.56s/it] 78%|███████▊  | 28/36 [00:26<00:12,  1.58s/it] 81%|████████  | 29/36 [00:28<00:11,  1.71s/it] 83%|████████▎ | 30/36 [00:34<00:17,  2.87s/it] 86%|████████▌ | 31/36 [00:34<00:10,  2.08s/it] 89%|████████▉ | 32/36 [00:35<00:06,  1.63s/it] 92%|█████████▏| 33/36 [00:38<00:05,  1.99s/it] 94%|█████████▍| 34/36 [00:42<00:05,  2.59s/it] 97%|█████████▋| 35/36 [00:42<00:01,  1.94s/it]100%|██████████| 36/36 [00:43<00:00,  1.48s/it]37it [00:45,  1.76s/it]                        38it [00:45,  1.35s/it]39it [00:46,  1.01s/it]40it [00:46,  1.30it/s]41it [00:46,  1.52it/s]42it [00:49,  1.36s/it]43it [00:50,  1.08s/it]100%|██████████| 36/36 [00:50<00:00,  1.40s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.00	0.00
+1	1	2	1	1	3	0.00	0.00
+1	1	1	2	1	3	0.00	0.00
+1	1	1	1	1	2	0.00	0.00
+1	1	2	1	2	4	0.00	0.00
+1	1	1	1	2	3	0.00	0.00
+1	2	1	1	1	3	0.94	2.81
+1	2	1	2	1	4	0.62	2.50
+1	2	1	1	2	4	0.62	2.50
+2	1	1	1	1	4	0.00	0.00
+2	1	2	1	1	6	0.00	0.00
+2	1	1	2	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	0.94	5.62
+2	1	1	1	2	6	0.00	0.00
+2	2	1	2	1	8	0.62	5.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	0.62	5.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	0.31	3.75
+4	2	1	2	1	16	0.31	5.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.31	5.00
+5	1	1	2	1	15	0.00	0.00
+5	1	1	1	1	10	0.00	0.00
+5	2	1	1	1	15	0.00	0.00
+5	2	1	2	1	20	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:02,  5.23s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.99it/s] 28%|██▊       | 10/36 [00:05<00:10,  2.54it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.09it/s] 42%|████▏     | 15/36 [00:08<00:11,  1.90it/s] 44%|████▍     | 16/36 [00:10<00:14,  1.38it/s] 47%|████▋     | 17/36 [00:10<00:12,  1.49it/s] 50%|█████     | 18/36 [00:10<00:10,  1.74it/s] 53%|█████▎    | 19/36 [00:12<00:13,  1.24it/s] 56%|█████▌    | 20/36 [00:13<00:14,  1.10it/s] 58%|█████▊    | 21/36 [00:17<00:25,  1.71s/it] 61%|██████    | 22/36 [00:18<00:19,  1.41s/it] 64%|██████▍   | 23/36 [00:20<00:19,  1.52s/it] 67%|██████▋   | 24/36 [00:20<00:13,  1.15s/it] 72%|███████▏  | 26/36 [00:23<00:13,  1.40s/it] 75%|███████▌  | 27/36 [00:24<00:11,  1.30s/it] 78%|███████▊  | 28/36 [00:24<00:08,  1.02s/it] 81%|████████  | 29/36 [00:29<00:13,  1.88s/it] 83%|████████▎ | 30/36 [00:33<00:14,  2.47s/it] 86%|████████▌ | 31/36 [00:33<00:09,  1.83s/it] 89%|████████▉ | 32/36 [00:36<00:08,  2.17s/it] 92%|█████████▏| 33/36 [00:36<00:04,  1.60s/it] 94%|█████████▍| 34/36 [00:42<00:05,  2.84s/it] 97%|█████████▋| 35/36 [00:42<00:02,  2.12s/it]100%|██████████| 36/36 [00:43<00:00,  1.55s/it]37it [00:43,  1.15s/it]                        38it [00:43,  1.08it/s]39it [00:43,  1.40it/s]40it [00:44,  1.79it/s]41it [00:44,  1.95it/s]42it [00:46,  1.04it/s]43it [00:46,  1.26it/s]100%|██████████| 36/36 [00:47<00:00,  1.31s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	2	2	1	4	0.31	1.25
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	1	1	2	3	0.31	0.94
+1	1	2	1	2	4	0.31	1.25
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.25	7.50
+2	1	2	2	1	8	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	1	1	1	2	6	0.16	0.94
+2	2	1	1	2	8	1.25	10.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	2	1	2	1	16	0.94	15.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.78	12.50
+5	2	1	1	1	15	0.62	9.38
+5	1	1	1	1	10	0.00	0.00
+5	2	1	2	1	20	0.78	15.62
+5	1	1	2	1	15	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<02:55,  5.03s/it] 22%|██▏       | 8/36 [00:05<00:13,  2.07it/s] 28%|██▊       | 10/36 [00:05<00:11,  2.30it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.07it/s] 42%|████▏     | 15/36 [00:07<00:09,  2.22it/s] 44%|████▍     | 16/36 [00:10<00:14,  1.38it/s] 47%|████▋     | 17/36 [00:11<00:16,  1.13it/s] 50%|█████     | 18/36 [00:11<00:13,  1.34it/s] 53%|█████▎    | 19/36 [00:12<00:11,  1.50it/s] 56%|█████▌    | 20/36 [00:13<00:13,  1.18it/s] 58%|█████▊    | 21/36 [00:16<00:21,  1.41s/it] 61%|██████    | 22/36 [00:17<00:18,  1.36s/it] 64%|██████▍   | 23/36 [00:20<00:20,  1.59s/it] 67%|██████▋   | 24/36 [00:20<00:14,  1.20s/it] 72%|███████▏  | 26/36 [00:22<00:10,  1.07s/it] 75%|███████▌  | 27/36 [00:24<00:12,  1.39s/it] 78%|███████▊  | 28/36 [00:25<00:11,  1.40s/it] 81%|████████  | 29/36 [00:26<00:08,  1.18s/it] 83%|████████▎ | 30/36 [00:34<00:18,  3.08s/it] 86%|████████▌ | 31/36 [00:34<00:11,  2.26s/it] 89%|████████▉ | 32/36 [00:36<00:08,  2.02s/it] 92%|█████████▏| 33/36 [00:38<00:05,  1.96s/it] 94%|█████████▍| 34/36 [00:38<00:02,  1.44s/it] 97%|█████████▋| 35/36 [00:41<00:02,  2.08s/it]100%|██████████| 36/36 [00:42<00:00,  1.58s/it]37it [00:44,  1.77s/it]                        38it [00:44,  1.36s/it]39it [00:45,  1.02s/it]40it [00:45,  1.29it/s]41it [00:45,  1.51it/s]42it [00:46,  1.71it/s]43it [00:46,  1.88it/s]100%|██████████| 36/36 [00:46<00:00,  1.30s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	1	2	1	3	0.31	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	1	2	2	1	8	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	2	1	2	1	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	1.25	10.00
+4	1	1	2	1	12	0.00	0.00
+4	1	1	1	1	8	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	1	2	1	2	16	0.00	0.00
+4	2	1	2	1	16	0.94	15.00
+5	1	1	1	1	10	0.00	0.00
+4	2	1	1	2	16	0.94	15.00
+5	2	1	1	1	15	1.09	16.41
+5	1	1	2	1	15	0.00	0.00
+5	2	1	2	1	20	0.78	15.62
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:02,  5.22s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.99it/s] 28%|██▊       | 10/36 [00:05<00:10,  2.54it/s] 36%|███▌      | 13/36 [00:06<00:06,  3.34it/s] 42%|████▏     | 15/36 [00:07<00:09,  2.19it/s] 44%|████▍     | 16/36 [00:10<00:15,  1.31it/s] 47%|████▋     | 17/36 [00:11<00:15,  1.24it/s] 50%|█████     | 18/36 [00:11<00:12,  1.47it/s] 53%|█████▎    | 19/36 [00:13<00:15,  1.07it/s] 56%|█████▌    | 20/36 [00:13<00:12,  1.32it/s] 58%|█████▊    | 21/36 [00:16<00:19,  1.29s/it] 61%|██████    | 22/36 [00:18<00:20,  1.49s/it] 64%|██████▍   | 23/36 [00:20<00:21,  1.69s/it] 67%|██████▋   | 24/36 [00:20<00:15,  1.26s/it] 69%|██████▉   | 25/36 [00:21<00:13,  1.19s/it] 72%|███████▏  | 26/36 [00:22<00:09,  1.04it/s] 75%|███████▌  | 27/36 [00:24<00:11,  1.33s/it] 78%|███████▊  | 28/36 [00:24<00:08,  1.11s/it] 81%|████████  | 29/36 [00:26<00:07,  1.14s/it] 83%|████████▎ | 30/36 [00:35<00:21,  3.55s/it] 86%|████████▌ | 31/36 [00:35<00:12,  2.55s/it] 89%|████████▉ | 32/36 [00:36<00:07,  1.97s/it] 92%|█████████▏| 33/36 [00:36<00:04,  1.56s/it] 94%|█████████▍| 34/36 [00:37<00:02,  1.40s/it] 97%|█████████▋| 35/36 [00:44<00:02,  2.96s/it]100%|██████████| 36/36 [00:44<00:00,  2.19s/it]37it [00:45,  1.84s/it]                        38it [00:46,  1.41s/it]39it [00:46,  1.05s/it]41it [00:46,  1.63it/s]42it [00:46,  1.96it/s]43it [00:47,  2.07it/s]100%|██████████| 36/36 [00:47<00:00,  1.32s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	1	3	0.47	1.41
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	2	1	8	0.00	0.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+4	1	1	1	1	8	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	2	1	2	1	16	0.94	15.00
+4	2	1	1	2	16	0.94	15.00
+5	1	1	1	1	10	0.00	0.00
+5	2	1	1	1	15	1.09	16.41
+5	1	1	2	1	15	0.00	0.00
+5	2	1	2	1	20	0.78	15.62
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:02,  5.23s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.99it/s] 31%|███       | 11/36 [00:06<00:09,  2.53it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.12it/s] 42%|████▏     | 15/36 [00:07<00:09,  2.22it/s] 44%|████▍     | 16/36 [00:10<00:15,  1.26it/s] 47%|████▋     | 17/36 [00:11<00:15,  1.25it/s] 50%|█████     | 18/36 [00:11<00:12,  1.48it/s] 53%|█████▎    | 19/36 [00:12<00:13,  1.26it/s] 56%|█████▌    | 20/36 [00:13<00:13,  1.18it/s] 58%|█████▊    | 21/36 [00:16<00:22,  1.47s/it] 61%|██████    | 22/36 [00:18<00:19,  1.40s/it] 64%|██████▍   | 23/36 [00:20<00:20,  1.57s/it] 67%|██████▋   | 24/36 [00:20<00:14,  1.18s/it] 69%|██████▉   | 25/36 [00:21<00:13,  1.24s/it] 72%|███████▏  | 26/36 [00:21<00:09,  1.06it/s] 75%|███████▌  | 27/36 [00:24<00:12,  1.43s/it] 78%|███████▊  | 28/36 [00:26<00:12,  1.54s/it] 81%|████████  | 29/36 [00:28<00:11,  1.68s/it] 83%|████████▎ | 30/36 [00:33<00:15,  2.62s/it] 86%|████████▌ | 31/36 [00:33<00:09,  1.90s/it] 89%|████████▉ | 32/36 [00:34<00:06,  1.63s/it] 92%|█████████▏| 33/36 [00:36<00:05,  1.74s/it] 94%|█████████▍| 34/36 [00:42<00:05,  2.90s/it] 97%|█████████▋| 35/36 [00:44<00:02,  2.63s/it]100%|██████████| 36/36 [00:44<00:00,  1.97s/it]37it [00:44,  1.44s/it]                        38it [00:45,  1.13s/it]39it [00:45,  1.17it/s]40it [00:45,  1.52it/s]41it [00:45,  1.72it/s]42it [00:46,  1.89it/s]43it [00:46,  2.03it/s]100%|██████████| 36/36 [00:46<00:00,  1.30s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	0.31	1.25
+1	1	2	1	1	3	0.47	1.41
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	1	1	2	6	0.16	0.94
+2	1	2	2	1	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	1	2	1	2	8	0.00	0.00
+2	2	1	1	2	8	1.25	10.00
+4	1	1	1	1	8	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	2	1	2	1	16	0.94	15.00
+4	1	2	1	2	16	0.00	0.00
+4	2	1	1	2	16	0.94	15.00
+5	1	1	1	1	10	0.00	0.00
+5	2	1	1	1	15	1.09	16.41
+5	2	1	2	1	20	0.78	15.62
+5	1	1	2	1	15	0.00	0.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=200, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:05<03:02,  5.22s/it] 22%|██▏       | 8/36 [00:05<00:14,  1.99it/s] 31%|███       | 11/36 [00:06<00:09,  2.53it/s] 36%|███▌      | 13/36 [00:06<00:07,  3.12it/s] 42%|████▏     | 15/36 [00:07<00:09,  2.22it/s] 44%|████▍     | 16/36 [00:10<00:15,  1.26it/s] 47%|████▋     | 17/36 [00:11<00:15,  1.25it/s] 50%|█████     | 18/36 [00:11<00:12,  1.49it/s] 53%|█████▎    | 19/36 [00:13<00:16,  1.02it/s] 56%|█████▌    | 20/36 [00:13<00:12,  1.27it/s] 58%|█████▊    | 21/36 [00:16<00:18,  1.21s/it] 61%|██████    | 22/36 [00:18<00:23,  1.65s/it] 64%|██████▍   | 23/36 [00:20<00:21,  1.69s/it] 67%|██████▋   | 24/36 [00:20<00:15,  1.27s/it] 69%|██████▉   | 25/36 [00:21<00:11,  1.07s/it] 72%|███████▏  | 26/36 [00:22<00:11,  1.17s/it] 75%|███████▌  | 27/36 [00:24<00:11,  1.24s/it] 78%|███████▊  | 28/36 [00:25<00:09,  1.23s/it] 81%|████████  | 29/36 [00:26<00:07,  1.05s/it] 83%|████████▎ | 30/36 [00:35<00:21,  3.66s/it] 86%|████████▌ | 31/36 [00:36<00:13,  2.63s/it] 92%|█████████▏| 33/36 [00:37<00:05,  1.74s/it] 94%|█████████▍| 34/36 [00:37<00:02,  1.41s/it] 97%|█████████▋| 35/36 [00:45<00:03,  3.09s/it]100%|██████████| 36/36 [00:46<00:00,  2.36s/it]37it [00:46,  1.76s/it]                        38it [00:46,  1.37s/it]39it [00:47,  1.03s/it]41it [00:47,  1.63it/s]42it [00:47,  1.95it/s]43it [00:47,  2.06it/s]100%|██████████| 36/36 [00:48<00:00,  1.34s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	0.47	1.41
+1	1	2	2	1	4	0.31	1.25
+1	1	1	2	1	3	0.31	0.94
+1	1	1	1	1	2	0.47	0.94
+1	1	2	1	2	4	0.31	1.25
+1	1	1	1	2	3	0.31	0.94
+1	2	1	1	1	3	1.56	4.69
+1	2	1	2	1	4	1.09	4.38
+1	2	1	1	2	4	1.09	4.38
+2	1	1	1	1	4	0.31	1.25
+2	1	1	2	1	6	0.16	0.94
+2	1	2	1	1	6	0.00	0.00
+2	2	1	1	1	6	1.56	9.38
+2	1	2	2	1	8	0.00	0.00
+2	1	1	1	2	6	0.16	0.94
+2	1	2	1	2	8	0.00	0.00
+2	2	1	2	1	8	1.25	10.00
+2	2	1	1	2	8	1.25	10.00
+4	1	1	1	1	8	0.00	0.00
+4	1	2	1	1	12	0.00	0.00
+4	1	1	2	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.41	16.88
+4	1	2	1	2	16	0.00	0.00
+4	1	1	1	2	12	0.00	0.00
+4	2	1	2	1	16	0.94	15.00
+5	1	1	1	1	10	0.00	0.00
+4	2	1	1	2	16	0.94	15.00
+5	1	1	2	1	15	0.00	0.00
+5	2	1	1	1	15	1.09	16.41
+5	2	1	2	1	20	0.78	15.62
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=50, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:04<02:48,  4.82s/it] 22%|██▏       | 8/36 [00:05<00:13,  2.15it/s] 28%|██▊       | 10/36 [00:05<00:09,  2.72it/s] 36%|███▌      | 13/36 [00:05<00:07,  3.25it/s] 42%|████▏     | 15/36 [00:08<00:10,  1.95it/s] 44%|████▍     | 16/36 [00:09<00:14,  1.40it/s] 47%|████▋     | 17/36 [00:10<00:12,  1.52it/s] 50%|█████     | 18/36 [00:10<00:10,  1.77it/s] 53%|█████▎    | 19/36 [00:12<00:15,  1.12it/s] 56%|█████▌    | 20/36 [00:12<00:11,  1.38it/s] 58%|█████▊    | 21/36 [00:15<00:19,  1.27s/it] 61%|██████    | 22/36 [00:16<00:17,  1.25s/it] 64%|██████▍   | 23/36 [00:17<00:14,  1.13s/it] 67%|██████▋   | 24/36 [00:17<00:10,  1.16it/s] 69%|██████▉   | 25/36 [00:19<00:11,  1.08s/it] 72%|███████▏  | 26/36 [00:20<00:09,  1.00it/s] 75%|███████▌  | 27/36 [00:20<00:08,  1.06it/s] 78%|███████▊  | 28/36 [00:24<00:12,  1.61s/it] 81%|████████  | 29/36 [00:26<00:12,  1.73s/it] 83%|████████▎ | 30/36 [00:27<00:10,  1.75s/it] 86%|████████▌ | 31/36 [00:28<00:06,  1.29s/it] 89%|████████▉ | 32/36 [00:30<00:06,  1.63s/it] 92%|█████████▏| 33/36 [00:32<00:05,  1.86s/it] 94%|█████████▍| 34/36 [00:37<00:05,  2.50s/it] 97%|█████████▋| 35/36 [00:37<00:01,  2.00s/it]100%|██████████| 36/36 [00:38<00:00,  1.52s/it]37it [00:40,  1.61s/it]                        38it [00:40,  1.25s/it]39it [00:40,  1.07it/s]40it [00:40,  1.40it/s]41it [00:41,  1.61it/s]42it [00:42,  1.17it/s]43it [00:43,  1.38it/s]100%|██████████| 36/36 [00:43<00:00,  1.20s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.25	3.75
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	1.25	3.75
+1	2	1	2	1	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+1	2	1	1	2	4	1.56	6.25
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.25	7.50
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	1.25	7.50
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	2	12	0.62	7.50
+4	2	1	1	1	12	1.88	22.50
+4	1	2	2	1	16	0.00	0.00
+4	2	1	2	1	16	1.41	22.50
+4	2	1	1	2	16	0.78	12.50
+4	1	2	1	2	16	0.00	0.00
+5	1	1	1	1	10	0.78	7.81
+5	1	1	2	1	15	0.47	7.03
+5	2	1	2	1	20	1.25	25.00
+5	2	1	1	1	15	1.41	21.09
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=75, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:04<02:48,  4.83s/it] 22%|██▏       | 8/36 [00:05<00:13,  2.15it/s] 31%|███       | 11/36 [00:05<00:09,  2.69it/s] 36%|███▌      | 13/36 [00:05<00:06,  3.29it/s] 42%|████▏     | 15/36 [00:07<00:08,  2.43it/s] 44%|████▍     | 16/36 [00:09<00:15,  1.31it/s] 47%|████▋     | 17/36 [00:10<00:15,  1.24it/s] 50%|█████     | 18/36 [00:11<00:12,  1.47it/s] 53%|█████▎    | 19/36 [00:11<00:11,  1.51it/s] 56%|█████▌    | 20/36 [00:13<00:13,  1.18it/s] 58%|█████▊    | 21/36 [00:14<00:14,  1.06it/s] 61%|██████    | 22/36 [00:16<00:18,  1.29s/it] 64%|██████▍   | 23/36 [00:17<00:15,  1.21s/it] 67%|██████▋   | 24/36 [00:17<00:11,  1.08it/s] 69%|██████▉   | 25/36 [00:18<00:09,  1.13it/s] 72%|███████▏  | 26/36 [00:19<00:09,  1.02it/s] 75%|███████▌  | 27/36 [00:22<00:14,  1.64s/it] 78%|███████▊  | 28/36 [00:23<00:10,  1.33s/it] 81%|████████  | 29/36 [00:25<00:10,  1.53s/it] 83%|████████▎ | 30/36 [00:28<00:11,  1.86s/it] 86%|████████▌ | 31/36 [00:28<00:06,  1.36s/it] 89%|████████▉ | 32/36 [00:30<00:05,  1.43s/it] 92%|█████████▏| 33/36 [00:35<00:08,  2.75s/it] 94%|█████████▍| 34/36 [00:36<00:04,  2.11s/it] 97%|█████████▋| 35/36 [00:38<00:01,  1.96s/it]100%|██████████| 36/36 [00:38<00:00,  1.49s/it]37it [00:39,  1.29s/it]                        38it [00:39,  1.02s/it]39it [00:39,  1.29it/s]40it [00:40,  1.65it/s]41it [00:40,  1.83it/s]42it [00:45,  1.89s/it]43it [00:45,  1.44s/it]100%|██████████| 36/36 [00:46<00:00,  1.28s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	1	3	1.88	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.03	6.09
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	1	1	2	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	2	1	1	1	12	1.88	22.50
+4	1	2	2	1	16	0.00	0.00
+4	2	1	2	1	16	1.41	22.50
+4	2	1	1	2	16	1.41	22.50
+4	1	2	1	2	16	0.00	0.00
+5	1	1	1	1	10	0.78	7.81
+5	1	1	2	1	15	0.47	7.03
+5	2	1	1	1	15	1.72	25.78
+5	2	1	2	1	20	1.25	25.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=100, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:04<02:48,  4.83s/it] 22%|██▏       | 8/36 [00:05<00:13,  2.15it/s] 31%|███       | 11/36 [00:05<00:08,  2.87it/s] 36%|███▌      | 13/36 [00:05<00:06,  3.50it/s] 42%|████▏     | 15/36 [00:07<00:10,  1.99it/s] 44%|████▍     | 16/36 [00:09<00:14,  1.34it/s] 47%|████▋     | 17/36 [00:10<00:14,  1.32it/s] 50%|█████     | 18/36 [00:10<00:11,  1.56it/s] 53%|█████▎    | 19/36 [00:12<00:13,  1.30it/s] 56%|█████▌    | 20/36 [00:12<00:10,  1.59it/s] 58%|█████▊    | 21/36 [00:15<00:19,  1.31s/it] 61%|██████    | 22/36 [00:17<00:19,  1.39s/it] 64%|██████▍   | 23/36 [00:17<00:14,  1.11s/it] 67%|██████▋   | 24/36 [00:17<00:10,  1.17it/s] 69%|██████▉   | 25/36 [00:18<00:09,  1.11it/s] 72%|███████▏  | 26/36 [00:18<00:06,  1.44it/s] 75%|███████▌  | 27/36 [00:22<00:14,  1.61s/it] 78%|███████▊  | 28/36 [00:24<00:12,  1.55s/it] 81%|████████  | 29/36 [00:25<00:10,  1.51s/it] 83%|████████▎ | 30/36 [00:28<00:12,  2.08s/it] 86%|████████▌ | 31/36 [00:29<00:07,  1.52s/it] 89%|████████▉ | 32/36 [00:29<00:04,  1.12s/it] 92%|█████████▏| 33/36 [00:35<00:08,  2.77s/it] 94%|█████████▍| 34/36 [00:36<00:04,  2.12s/it] 97%|█████████▋| 35/36 [00:37<00:01,  1.73s/it]100%|██████████| 36/36 [00:37<00:00,  1.33s/it]37it [00:39,  1.30s/it]                        38it [00:39,  1.03s/it]39it [00:39,  1.28it/s]40it [00:39,  1.65it/s]41it [00:40,  1.83it/s]42it [00:45,  1.95s/it]43it [00:45,  1.43s/it]100%|██████████| 36/36 [00:45<00:00,  1.27s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	2	1	4	1.41	5.62
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	1	3	1.88	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	2	1	1	1	6	2.19	13.12
+2	1	2	2	1	8	1.09	8.75
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	1	1	2	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.88	22.50
+4	2	1	1	2	16	1.41	22.50
+4	2	1	2	1	16	1.41	22.50
+4	1	2	1	2	16	0.00	0.00
+5	1	1	2	1	15	0.47	7.03
+5	1	1	1	1	10	0.78	7.81
+5	2	1	1	1	15	1.72	25.78
+5	2	1	2	1	20	1.25	25.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=125, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:04<02:48,  4.82s/it] 22%|██▏       | 8/36 [00:05<00:13,  2.15it/s] 28%|██▊       | 10/36 [00:05<00:09,  2.72it/s] 36%|███▌      | 13/36 [00:05<00:06,  3.54it/s] 42%|████▏     | 15/36 [00:07<00:09,  2.13it/s] 44%|████▍     | 16/36 [00:09<00:14,  1.35it/s] 47%|████▋     | 17/36 [00:10<00:12,  1.47it/s] 50%|█████     | 18/36 [00:10<00:10,  1.72it/s] 53%|█████▎    | 19/36 [00:11<00:12,  1.38it/s] 56%|█████▌    | 20/36 [00:13<00:14,  1.12it/s] 58%|█████▊    | 21/36 [00:14<00:16,  1.08s/it] 61%|██████    | 22/36 [00:16<00:17,  1.28s/it] 64%|██████▍   | 23/36 [00:17<00:14,  1.15s/it] 67%|██████▋   | 24/36 [00:17<00:10,  1.14it/s] 69%|██████▉   | 25/36 [00:18<00:10,  1.09it/s] 72%|███████▏  | 26/36 [00:20<00:11,  1.18s/it] 75%|███████▌  | 27/36 [00:20<00:09,  1.01s/it] 78%|███████▊  | 28/36 [00:23<00:10,  1.36s/it] 81%|████████  | 29/36 [00:24<00:10,  1.44s/it] 83%|████████▎ | 30/36 [00:27<00:11,  1.97s/it] 86%|████████▌ | 31/36 [00:28<00:07,  1.44s/it] 89%|████████▉ | 32/36 [00:32<00:08,  2.21s/it] 92%|█████████▏| 33/36 [00:32<00:05,  1.79s/it] 94%|█████████▍| 34/36 [00:35<00:04,  2.15s/it] 97%|█████████▋| 35/36 [00:36<00:01,  1.69s/it]100%|██████████| 36/36 [00:37<00:00,  1.31s/it]37it [00:37,  1.16s/it]                        38it [00:38,  1.07it/s]39it [00:38,  1.40it/s]40it [00:38,  1.79it/s]41it [00:39,  1.95it/s]42it [00:42,  1.44s/it]43it [00:43,  1.13s/it]100%|██████████| 36/36 [00:43<00:00,  1.20s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	1	1	1	2	3	0.78	2.34
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	2	1	1	1	6	2.19	13.12
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	1	1	8	1.09	8.75
+4	1	1	2	1	12	0.62	7.50
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	2	12	0.62	7.50
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.88	22.50
+4	2	1	2	1	16	1.41	22.50
+4	1	2	1	2	16	0.00	0.00
+5	1	1	1	1	10	0.78	7.81
+5	1	1	2	1	15	0.47	7.03
+5	2	1	1	1	15	1.72	25.78
+4	2	1	1	2	16	1.41	22.50
+5	2	1	2	1	20	1.25	25.00
+Namespace(ngpu_per_node=4, num_node=5, is_high_affinity=False, backend='distserve', workload='sharegpt', prefill_target=250, decode_target=150, prefill_percentage=90, decode_percentage=90, max_per_gpu_rate=5, esp=0.25, N=300, model_type='OPT-13B')
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:04<02:48,  4.82s/it] 22%|██▏       | 8/36 [00:05<00:13,  2.15it/s] 31%|███       | 11/36 [00:05<00:08,  2.88it/s] 36%|███▌      | 13/36 [00:05<00:06,  3.50it/s] 42%|████▏     | 15/36 [00:07<00:09,  2.22it/s] 44%|████▍     | 16/36 [00:09<00:15,  1.31it/s] 47%|████▋     | 17/36 [00:10<00:13,  1.36it/s] 50%|█████     | 18/36 [00:10<00:11,  1.60it/s] 53%|█████▎    | 19/36 [00:11<00:12,  1.41it/s] 56%|█████▌    | 20/36 [00:12<00:10,  1.57it/s] 58%|█████▊    | 21/36 [00:15<00:18,  1.26s/it] 61%|██████    | 22/36 [00:16<00:18,  1.30s/it] 64%|██████▍   | 23/36 [00:18<00:19,  1.50s/it] 67%|██████▋   | 24/36 [00:18<00:13,  1.13s/it] 72%|███████▏  | 26/36 [00:18<00:06,  1.50it/s] 75%|███████▌  | 27/36 [00:21<00:11,  1.24s/it] 78%|███████▊  | 28/36 [00:23<00:09,  1.23s/it] 81%|████████  | 29/36 [00:25<00:10,  1.44s/it] 83%|████████▎ | 30/36 [00:29<00:13,  2.21s/it] 86%|████████▌ | 31/36 [00:29<00:08,  1.64s/it] 89%|████████▉ | 32/36 [00:30<00:05,  1.34s/it] 92%|█████████▏| 33/36 [00:35<00:07,  2.53s/it] 94%|█████████▍| 34/36 [00:36<00:03,  1.90s/it] 97%|█████████▋| 35/36 [00:37<00:01,  1.64s/it]100%|██████████| 36/36 [00:37<00:00,  1.27s/it]37it [00:39,  1.43s/it]                        38it [00:39,  1.13s/it]39it [00:39,  1.17it/s]40it [00:40,  1.52it/s]41it [00:40,  1.72it/s]42it [00:43,  1.37s/it]43it [00:44,  1.08s/it]100%|██████████| 36/36 [00:44<00:00,  1.23s/it]
+pp_cross	tp_prefill	pp_prefill	tp_decode	pp_decode	total_gpus	per_gpu_rate	total_throughput
+1	1	2	1	1	3	1.88	5.62
+1	1	2	2	1	4	1.41	5.62
+1	1	1	1	1	2	1.25	2.50
+1	1	1	2	1	3	0.78	2.34
+1	1	1	1	2	3	0.78	2.34
+1	1	2	1	2	4	1.41	5.62
+1	2	1	1	1	3	2.19	6.56
+1	2	1	2	1	4	1.56	6.25
+1	2	1	1	2	4	1.56	6.25
+2	1	1	1	1	4	1.41	5.62
+2	1	1	2	1	6	0.94	5.62
+2	1	2	1	1	6	1.41	8.44
+2	2	1	1	1	6	2.19	13.12
+2	1	1	1	2	6	0.94	5.62
+2	1	2	2	1	8	1.09	8.75
+2	1	2	1	2	8	1.09	8.75
+2	2	1	2	1	8	1.72	13.75
+2	2	1	1	2	8	1.72	13.75
+4	1	1	2	1	12	0.62	7.50
+4	1	1	1	1	8	1.09	8.75
+4	1	2	1	1	12	0.00	0.00
+4	1	1	1	2	12	0.62	7.50
+4	1	2	2	1	16	0.00	0.00
+4	2	1	1	1	12	1.88	22.50
+4	1	2	1	2	16	0.00	0.00
+4	2	1	2	1	16	1.41	22.50
+5	1	1	1	1	10	0.78	7.81
+4	2	1	1	2	16	1.41	22.50
+5	1	1	2	1	15	0.47	7.03
+5	2	1	1	1	15	1.72	25.78
+5	2	1	2	1	20	1.25	25.00

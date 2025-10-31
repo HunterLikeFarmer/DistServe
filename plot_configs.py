@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Plot per-GPU rates for different DistServe configurations.
+Automatically skips errors and invalid output.
 """
 # python plot_configs.py sim_result.txt
 
@@ -9,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def parse_sim_results(filename):
-    """Parse the simulation results file."""
+    """Parse the simulation results file, skipping invalid data."""
     with open(filename, 'r') as f:
         content = f.read()
     
@@ -19,50 +20,70 @@ def parse_sim_results(filename):
     all_configs = []
     
     for block in blocks[1:]:  # Skip first empty part
-        # Extract metadata from Namespace
         lines = block.split('\n')
         
-        # Find the data lines (TSV format)
+        # Find the header line (pp_cross\t...)
+        header_idx = None
         for i, line in enumerate(lines):
             if line.startswith('pp_cross\t'):
-                # Found header, now read data lines
-                for j in range(i + 1, len(lines)):
-                    data_line = lines[j].strip()
-                    if not data_line or data_line.startswith('Namespace'):
-                        break
-                    
-                    # Parse the TSV line
-                    parts = data_line.split('\t')
-                    if len(parts) >= 7:
-                        try:
-                            pp_cross = int(parts[0])
-                            tp_prefill = int(parts[1])
-                            pp_prefill = int(parts[2])
-                            tp_decode = int(parts[3])
-                            pp_decode = int(parts[4])
-                            total_gpus = int(parts[5])
-                            per_gpu_rate = float(parts[6])
-                            
-                            config = {
-                                'pp_cross': pp_cross,
-                                'tp_prefill': tp_prefill,
-                                'pp_prefill': pp_prefill,
-                                'tp_decode': tp_decode,
-                                'pp_decode': pp_decode,
-                                'total_gpus': total_gpus,
-                                'per_gpu_rate': per_gpu_rate,
-                                'config_tuple': (pp_cross, tp_prefill, pp_prefill, tp_decode, pp_decode, total_gpus),
-                                'config_str': f"({pp_cross},{tp_prefill},{pp_prefill},{tp_decode},{pp_decode},{total_gpus})"
-                            }
-                            all_configs.append(config)
-                        except (ValueError, IndexError):
-                            continue
+                header_idx = i
                 break
+        
+        if header_idx is None:
+            # No valid header found in this block, skip it
+            continue
+        
+        # Extract only valid data lines (tab-separated numbers after header)
+        for j in range(header_idx + 1, len(lines)):
+            data_line = lines[j].strip()
+            
+            # Stop if we hit another Namespace or empty line
+            if not data_line or data_line.startswith('Namespace'):
+                break
+            
+            # Skip lines that don't start with a digit (error messages, progress bars, etc.)
+            if not data_line[0].isdigit():
+                continue
+            
+            # Skip lines without tabs (not TSV format)
+            if '\t' not in data_line:
+                continue
+            
+            # Parse the TSV line
+            parts = data_line.split('\t')
+            
+            # Must have at least 7 parts for distserve format
+            if len(parts) >= 7:
+                try:
+                    # Try to parse all numeric fields
+                    pp_cross = int(parts[0])
+                    tp_prefill = int(parts[1])
+                    pp_prefill = int(parts[2])
+                    tp_decode = int(parts[3])
+                    pp_decode = int(parts[4])
+                    total_gpus = int(parts[5])
+                    per_gpu_rate = float(parts[6])
+                    
+                    config = {
+                        'pp_cross': pp_cross,
+                        'tp_prefill': tp_prefill,
+                        'pp_prefill': pp_prefill,
+                        'tp_decode': tp_decode,
+                        'pp_decode': pp_decode,
+                        'total_gpus': total_gpus,
+                        'per_gpu_rate': per_gpu_rate,
+                        'config_tuple': (pp_cross, tp_prefill, pp_prefill, tp_decode, pp_decode, total_gpus),
+                        'config_str': f"({pp_cross},{tp_prefill},{pp_prefill},{tp_decode},{pp_decode},{total_gpus})"
+                    }
+                    all_configs.append(config)
+                except (ValueError, IndexError):
+                    # If parsing fails, skip this line (it's not valid data)
+                    continue
     
     return all_configs
 
 
-def plot_configs(configs, filename='config_performance.png'):
+def plot_configs(configs, filename='config_performance_new.png'):
     """Create scatter plot of configurations vs per-GPU rate."""
     
     # Filter out configs with 0 per_gpu_rate (failed configs)

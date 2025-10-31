@@ -1,4 +1,5 @@
 import argparse
+import sys
 
 from simdistserve.benchmarks.parallel_bisect import simulate_bisect_search
 from simdistserve.constants import ModelTypes
@@ -76,20 +77,28 @@ def check_dataset_env_var():
 
 
 if __name__ == '__main__':
-    args = parse_args()
-    print(args)
+    try:
+        args = parse_args()
+        print(args)
 
-    result = simulate_bisect_search(
-        args.num_node,
-        args.ngpu_per_node,
-        model_type=args.model_type,
-        is_dist_high=args.is_high_affinity,
-        backend=args.backend,
-        attainment=(args.prefill_target, args.decode_target, args.prefill_percentage, args.decode_percentage),
-        max_per_gpu_rate=args.max_per_gpu_rate,
-        esp=args.esp,
-        N=args.N,
-    )
+        result = simulate_bisect_search(
+            args.num_node,
+            args.ngpu_per_node,
+            model_type=args.model_type,
+            is_dist_high=args.is_high_affinity,
+            backend=args.backend,
+            attainment=(args.prefill_target, args.decode_target, args.prefill_percentage, args.decode_percentage),
+            max_per_gpu_rate=args.max_per_gpu_rate,
+            esp=args.esp,
+            N=args.N,
+        )
 
-    # Print all configurations in parseable format
-    print_all_configs(result, args.backend)
+        # Print all configurations in parseable format
+        print_all_configs(result, args.backend)
+        
+    except Exception:
+        # Silently skip on any error
+        pass
+    
+    # Always exit with success code so shell script continues
+    sys.exit(0)
